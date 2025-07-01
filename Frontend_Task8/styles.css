@@ -1,0 +1,25 @@
+.container {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.container h1 {
+  color: #008080;
+  margin-bottom: 20px;
+}
+.container p {
+  color: #333;
+  font-size: 16px;
+}
+.container .main-btn {
+  padding: 10px 20px;
+  background-color: #008080;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+$primary-color: #008080;
+$light-bg: #f8f9fa;
+$text-color: #333;
+$btn-radius: 6px;
+
+.container {
+  background-color: $light-bg;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+
+  h1 {
+    color: $primary-color;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: $text-color;
+    font-size: 16px;
+  }
+
+  .main-btn {
+    padding: 10px 20px;
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    border-radius: $btn-radius;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+}

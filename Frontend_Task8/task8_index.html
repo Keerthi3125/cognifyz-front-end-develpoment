@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kuchi Keerthi Sai - Task 8 Sass</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Welcome to Sass Styling</h1>
+    <p>This is Task 8 of my internship. I've used Sass to structure and simplify CSS styling.</p>
+    <button class="main-btn" onclick="showMessage()">Click Me</button>
+    <p id="message" style="margin-top: 20px; display: none; color: green; font-weight: bold;"></p>
+  </div>
+
+  <script>
+    function showMessage() {
+      const message = document.getElementById("message");
+      message.textContent = "🎉 You clicked the Sass-styled button!";
+      message.style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
